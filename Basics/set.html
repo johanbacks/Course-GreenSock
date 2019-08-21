@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html land="br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initical-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Método Set</title>
+            <link rel="stylesheet" href="Style.css">
+    </head>
+<body>
+    <header id="header">
+        <a class="title-link" href="/Basics/">                          
+        <h1 class="title">Greensock Course</h1>
+        </a>
+        
+    </header>
+    <pre id="code"><code>
+ TweenMax.set{target, {properties}}
+    </code></pre>
+    
+     <section class="gallery">
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+
+        <article class="item">
+            <div class="image"></div>
+            <div class="description">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+    </section>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+            <script>
+               const items = document.querySelectorAll(".item");
+               TweenMax.set(items, {
+                   x:-100,
+                   y:100,
+                   
+               });
+               const title = document.querySelector(".title");
+               TweenMax.set(title,{
+                 color: "pink" , 
+               });
+            </script>
+        </body>
+        </html>
